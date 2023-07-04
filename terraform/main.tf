@@ -1,12 +1,12 @@
 
-module "target" {
+module "target-account" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "jakesky@amazon.com"
+    AccountEmail              = "target+jakesky@amazon.com"
     AccountName               = "target"
     ManagedOrganizationalUnit = "Governance"
-    SSOUserEmail              = "target+jakesky@amazon.com"
+    SSOUserEmail              = "jakesky@amazon.com"
     SSOUserFirstName          = "Jake"
     SSOUserLastName           = "Kudiersky"
   }
