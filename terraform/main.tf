@@ -6,7 +6,7 @@ module "target-account" {
     AccountEmail              = "jakesky@amazon.com"
     AccountName               = "target-account"
     ManagedOrganizationalUnit = "Governance"
-    SSOUserEmail              = "jakesky@amazon.com"
+    SSOUserEmail              = "target-acount+jakesky@amazon.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
